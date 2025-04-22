@@ -1,22 +1,21 @@
 <!DOCTYPE html>
 <head>
     <title>Base64ForUs</title>
+    <link rel="stylesheet" href="./style.css">
+    
 </head>
 <body>
-    <h1>Base64ForUs</h1>
-    <h4>Put your text here!</h4>
+    <h1 id="Base64ForUs">Base64ForUs</h1>
+    <h4 id="PutOne">Put your text here:</h4>
     <textarea id="Inp" name="Base64ForUs"></textarea>
-    <h6>Encoded/Decoded text(may be empty):</h6>
+    <button type="button" onclick="javascript:encode()"><b>Encode</b></button>
+    <button type="button" onclick="javascript:decode()"><b>Decode</b></button>
+    <h4>Encoded/Decoded text:</h4>
     <pre id="Outp"></pre>
     <script src="./main.js"></script>
     
-    <h4>Press this button bellow to encode!</h4>
-    <button type="button" onclick="javascript:encode()"><b>Encode</b></button>
-    <h4>Press this button bellow to decode!</h4>
-    <button type="button" onclick="javascript:decode()"><b>Decode</b></button>
-    <noscript>Sorry, your browser does not support JavaScript!</noscript> 
+    
+    
     <p>Thanks for using this page!</p>
     <footer><a href="https://github.com/BadiGGH/Base64ForUs">Visit repository on github</a></footer>
-    
-
 </body>
